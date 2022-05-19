@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
 import App from './App';
 import Prompt from './components/Prompt';
+import Fund from './components/Fund';
 import reportWebVitals from './reportWebVitals';
 import {
   BrowserRouter,
@@ -19,8 +19,9 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
         <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/prompt" element={<Prompt />} />
         <Route path="/product" element={<Product />} />
+        <Route path="/prompt" element={<Prompt />} />
+        <Route path="/fund" element={<Fund />} />
     </Routes>
   </BrowserRouter>
   </React.StrictMode>

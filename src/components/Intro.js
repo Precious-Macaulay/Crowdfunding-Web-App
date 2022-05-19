@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom';
 import frame from '../images/Frame.png';
+
 const Intro = () => {
     return (
     <div className='container flex flex-col-reverse items-center px-6 
@@ -17,16 +19,16 @@ const Intro = () => {
        </p>
        <div className='flex'>
        <div className='flex justify-center md:justify-start'> 
-       <a className='p-3 outline outline-1 px-6 pt-2 rounded text-xs text-white bg-[#0865FF]
+       <Link to='/' className='p-3 outline outline-1 px-6 pt-2 rounded text-xs text-white bg-[#0865FF]
       baseline hover:bg-blue-400'>
         Get Started For Free
-      </a>
+      </Link>
         </div>
         <div className='flex justify-center md:justify-start'> 
-       <a className='p-3 outline outline-1 px-6 pt-2 rounded text-xs mx-2 text-[#0865FF] bg-transparent
+       <Link to='/' className='p-3 outline outline-1 px-6 pt-2 rounded text-xs mx-2 text-[#0865FF] bg-transparent
       baseline hover:bg-blue-400'>
         Merchant Login
-      </a>
+      </Link>
         </div>
         </div>
  </div>
