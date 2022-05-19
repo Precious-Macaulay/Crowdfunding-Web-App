@@ -1,11 +1,9 @@
- 
- const Bottom = () => {
+const Bottom = () => {
+  return (
+    <div className="bottom text-center mt-32 mb-10">
+      <p>Created with love ❤ ️by teamConnect</p>
+    </div>
+  );
+};
 
-    return(
-<div className='bottom text-center mt-32 mb-10'>
-<p>Created with love ❤ ️by teamConnect</p>
-</div>
-    );
- }
-
- export default Bottom;
+export default Bottom;

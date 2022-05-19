@@ -31,7 +31,7 @@ const Intro = () => {
         </div>
  </div>
  <div className='md-w-1/2'>
-   <img src= { frame } alt='' />
+   <img src= { frame } alt='' className="rounded-lg"/>
  </div>
     </div>
       

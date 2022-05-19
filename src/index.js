@@ -9,6 +9,8 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import Dashboard from './components/Dashboard';
+import Product from './components/Product';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,8 +18,9 @@ root.render(
       <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/prompt" element={<Prompt />} />
+        <Route path="/product" element={<Product />} />
     </Routes>
   </BrowserRouter>
   </React.StrictMode>

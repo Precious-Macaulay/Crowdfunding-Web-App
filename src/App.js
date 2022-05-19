@@ -12,7 +12,6 @@ function App() {
   <Intro />
   <Testimonials />
   <Bottom />
-  
     </div>
   );
 }
