@@ -29,7 +29,7 @@ const Header = () => {
             </Link>
           </div>
           <div className="flex justify-center md:justify-start">
-            <a
+            <a href='https://'
               className="p-2 outline outline-1 px-5 text-sm pt-2 font-normal rounded mx-2 text-white bg-[#0865FF]
       baseline hover:bg-blue-400">
               Get Started
