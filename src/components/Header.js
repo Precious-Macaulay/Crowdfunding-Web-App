@@ -29,35 +29,13 @@ const Header = () => {
             </Link>
           </div>
           <div className="flex justify-center md:justify-start">
-            <Link
-              to="/prompt"
-              className="p-2 outline outline-1 px-5 text-sm pt-2 font-normal rounded mx-2 text-white bg-[#0865FF]
-      baseline hover:bg-blue-400"
-            >
-              Get Started
-            </Link>
-          </div>
-        </div>
-        <div className="hidden md:flex">
-          <div className="flex justify-center md:justify-start">
-            <Link
-              to="/prompt"
-              className="p-2 outline outline-1 px-5 text-sm pt-2 font-normal rounded text-[#0865FF] bg-transparent
-      baseline hover:bg-blue-400"
-            >
-              Merchant Login
-            </Link>
-          </div>
-          <div className="flex justify-center md:justify-start">
             <a
               className="p-2 outline outline-1 px-5 text-sm pt-2 font-normal rounded mx-2 text-white bg-[#0865FF]
-      baseline hover:bg-blue-400"
-            >
+      baseline hover:bg-blue-400">
               Get Started
             </a>
           </div>
         </div>
-        {/**/}
         <button
           id="menuBtn"
           className="block hamburger md:hidden focus:outline-none
