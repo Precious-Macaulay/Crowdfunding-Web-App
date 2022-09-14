@@ -28,7 +28,7 @@ const Header = () => {
       </Link>
         </div>
         <div className='flex justify-center md:justify-start'> 
-       <a className='p-2 outline outline-1 px-5 text-sm pt-2 font-normal rounded mx-2 text-white bg-[#0865FF]
+       <a href='https://' className='p-2 outline outline-1 px-5 text-sm pt-2 font-normal rounded mx-2 text-white bg-[#0865FF]
       baseline hover:bg-blue-400'>
         Get Started
       </a>
@@ -46,8 +46,8 @@ const Header = () => {
           <div id='menu' className='absolute flex-col items-center hidden self-end
           py-8 mt- 10 space-y-6 font-bold bg-white sm:w-auto
           sm:self-center left-6 right-6 drop-shadow-md'>
-        <a href='/' className='hover:text-darkGrayishBlue'>Merchant Login</a>
-        <a href='/' className='hover:text-darkGrayishBlue'>Get Started</a>
+        <a href='https://' className='hover:text-darkGrayishBlue'>Merchant Login</a>
+        <a href='https://' className='hover:text-darkGrayishBlue'>Get Started</a>
           </div>
         </div>
   </nav>
