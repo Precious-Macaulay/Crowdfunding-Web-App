@@ -67,7 +67,7 @@ See how your day-to-day tasks
 </div>
 </div>
 <div className='block my-12'>
-<a className='p-3 px-6 pt-2 rounded-md bg-white font-medium text-[#0865FF]
+<a href='https://' className='p-3 px-6 pt-2 rounded-md bg-white font-medium text-[#0865FF]
       baseline hover:bg-blue-400'>
         Get Started For Free
       </a>

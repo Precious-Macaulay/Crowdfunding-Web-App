@@ -17,7 +17,7 @@ const Prompt = () => {
          justo, lacinia eget consectetur sed, convallis at</p>
 </div>
 <div className='flex justify-center py-8 max-w-xs'> 
-       <a className='px-5 outline outline-1 text-base py-2 font-normal rounded text-white bg-[#0865FF]
+       <a href='https://' className='px-5 outline outline-1 text-base py-2 font-normal rounded text-white bg-[#0865FF]
       baseline hover:bg-blue-400'>
           <span class="inline-flex items-baseline">
     <FaTwitter className="self-center w-5 h-5 mx-1" />

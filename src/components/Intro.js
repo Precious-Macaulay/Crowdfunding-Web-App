@@ -17,13 +17,13 @@ const Intro = () => {
        </p>
        <div className='flex'>
        <div className='flex justify-center md:justify-start'> 
-       <a className='p-3 outline outline-1 px-6 pt-2 rounded text-xs text-white bg-[#0865FF]
+       <a href='https://' className='p-3 outline outline-1 px-6 pt-2 rounded text-xs text-white bg-[#0865FF]
       baseline hover:bg-blue-400'>
         Get Started For Free
       </a>
         </div>
         <div className='flex justify-center md:justify-start'> 
-       <a className='p-3 outline outline-1 px-6 pt-2 rounded text-xs mx-2 text-[#0865FF] bg-transparent
+       <a href='https://' className='p-3 outline outline-1 px-6 pt-2 rounded text-xs mx-2 text-[#0865FF] bg-transparent
       baseline hover:bg-blue-400'>
         Merchant Login
       </a>
